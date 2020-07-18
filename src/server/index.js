@@ -14,7 +14,6 @@ var textapi = new aylien({
 let sentimentData = {}
 const app = express()
 
-
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 app.use(cors())
@@ -31,20 +30,16 @@ app.get('/', function (req, res) {
 })
 
 
-app.listen(8000, function () {
-    console.log('Example app listening on port 8000!')
-})
-
-
-app.get('/test', function (req, res) {
-  let sampleText = 'I love Mondays'
-  textapi.sentiment({
-    'text': sampleText
-  }, function(error, res) {
-    if (error === null) {
-      console.log(res);
-    }
-  });
+app.get('/test', async function (req, res) {
+  res.json({message: 'Works!'})
+  // let sampleText = 'I love Mondays'
+  // textapi.sentiment({
+  //   'text': sampleText
+  // }, function(error, res) {
+  //   if (error === null) {
+  //     console.log(res);
+  //   }
+  // });
 })
 
 
@@ -78,3 +73,6 @@ app.post('/sentiment-data', function (req, res){
       console.log(error)
     }
 })
+
+
+module.exports = app
