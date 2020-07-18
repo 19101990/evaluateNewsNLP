@@ -3,35 +3,43 @@
     <head>
         <meta charset="utf-8">
         <title>Test</title>
+        <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap" rel="stylesheet">
     </head>
 
     <body>
+        <div class="wrap">
+            <header>
+                    <h1>
+                        Sentiment Analysis with NLP
+                    </h1>
+                    <main>
+                        
+                        <section>
+                            <form id="form" class="" onsubmit="return Client.handleSubmit(event)">
+                                <input id="input-url" type="text" name="input" value="" placeholder="URL of your article">
+                                <input type="submit" name="" value="SUBMIT" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                            </form>
+                        <section>
+        
+                        <section>
+                            <div id="polarity"></div>
+                        </section>
+                        <section>
+                            <div id="go-back"></div>
+                        </section>
+                    </main>
+            </header>
 
-        <header>
-            <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
-            </div>
-        </header>
-
-        <main>
-            <section>
-                <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" onblur="onBlur()" placeholder="Name">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
-                </form>
-            <section>
-
-            <section>
-                <strong>Form Results:</strong>
-                <div id="results"></div>
-            </section>
-        </main>
-
+            
+            
+        </div>
         <footer>
-            <p>This is a footer</p>
+            <div class="footer-wrap">
+           
+            <div><a href="https://github.com/19101990">GitHub</a></div>
+            <div>&copy; ehostynska 2020</div>
+
+        </div>
         </footer>
 
     </body>

@@ -1,0 +1,25 @@
+.footer-wrap {
+    background: rgb(54, 143, 32);
+    color: #fff;
+    display: flex;
+    min-height: 8vh;
+    font-family: 'Abel', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-wrap a {
+    color: #333;
+    background: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+    border-radius: 5px;
+}
+
+// footer p {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     min-height: 5vh;
+//     font-family: 'Abel', sans-serif;
+// }
