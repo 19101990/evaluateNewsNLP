@@ -5,14 +5,15 @@
     min-height: 8vh;
     font-family: 'Abel', sans-serif;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .footer-wrap a {
-    color: #333;
-    background: #fff;
+    color: #fff;
+    background: rgb(26, 109, 0);
     text-decoration: none;
-    padding: .5em 1em;
+    padding: .25em .75em;
+    margin: 0 .25em;
     border-radius: 5px;
 }
 

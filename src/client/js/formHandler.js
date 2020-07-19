@@ -2,13 +2,10 @@ function handleSubmit(event) {
     event.preventDefault()
     const dataUrl='http://localhost:8000/sentiment-data'
     let formText = document.getElementById('input-url').value
-    console.log(">>> Form submitted")
     if (Client.checkUrl(formText) === true) {
         postData(dataUrl, {formText})
             .then(() => {
-                updateInterface()
-                console.log('>>> Interface updated')
-                
+                updateInterface()                
             })
         }
 }

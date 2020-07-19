@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>Sentiments Analysis with NLP</title>
         <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap" rel="stylesheet">
     </head>
 
@@ -35,12 +35,18 @@
         </div>
         <footer>
             <div class="footer-wrap">
-           
-            <div><a href="https://github.com/19101990">GitHub</a></div>
-            <div>&copy; ehostynska 2020</div>
-
-        </div>
+                <div>e19101990 &copy; 2020 | </div>
+                <div><a href="https://github.com/19101990/evaluate-news-nlp">GitHub</a></div>
+            </div>
         </footer>
-
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+           </script>
     </body>
 </html>

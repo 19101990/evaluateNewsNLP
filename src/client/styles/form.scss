@@ -9,6 +9,17 @@ input {
     padding: 5px 20px;
     width: 100%;
     line-height: 16px;
+    padding: 1em;
     margin: 10px 0;
     font-family: 'Abel', sans-serif;
+    border: none;
+    border-radius: 5px;
+    background: rgb(243, 243, 243);
+}
+
+input[type="submit"] {
+    color: #fff;
+    background: rgb(54, 143, 32);
+    text-decoration: none;
+    padding: .75em .75em;
 }
