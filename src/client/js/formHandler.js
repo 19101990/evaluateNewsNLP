@@ -63,9 +63,6 @@ const updateInterface = async () => {
     }
 }
 
-
-
-
 export { handleSubmit }
 export { postData }
 export { getData }

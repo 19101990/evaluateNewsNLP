@@ -32,14 +32,6 @@ app.get('/', function (req, res) {
 
 app.get('/test', async function (req, res) {
   res.json({message: 'Works!'})
-  // let sampleText = 'I love Mondays'
-  // textapi.sentiment({
-  //   'text': sampleText
-  // }, function(error, res) {
-  //   if (error === null) {
-  //     console.log(res);
-  //   }
-  // });
 })
 
 
