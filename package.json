@@ -17,7 +17,7 @@
     "@babel/runtime": "^7.10.5",
     "aylien_textapi": "^0.7.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
